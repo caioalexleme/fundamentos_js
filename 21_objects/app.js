@@ -7,7 +7,7 @@ function Pessoa(nm, ap, tlf) {
         return this.nome + ' ' + this.apelido;
     }
 
-    this.alterNome() = function (novo_nome) {
+    this.alterarNome = function (novo_nome) {
         this.nome = novo_nome;
     }
 }
@@ -15,5 +15,5 @@ function Pessoa(nm, ap, tlf) {
 let cliente = new Pessoa('caio', 'alexandre', 972115907);
 console.log(cliente.nome);
 console.log(cliente.nomeCompleto());
-cliente.alterNome('manuel');
+cliente.alterarNome('manuel');
 console.log(cliente.nomeCompleto());
