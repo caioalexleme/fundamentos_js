@@ -13,7 +13,7 @@ function Pessoa(nm, ap, tlf) {
 }
 
 let cliente = new Pessoa('caio', 'alexandre', 972115907);
-console.log(cliente.nome);
+console.log(cliente.nome + cliente.telefone);
 console.log(cliente.nomeCompleto());
 cliente.alterarNome('manuel');
 console.log(cliente.nomeCompleto());
